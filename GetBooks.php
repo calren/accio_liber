@@ -2,6 +2,10 @@
 
 include ("apiCall.php");
 
+/*
+* return top books given a genre
+*/
+
 class TopBooks {
 
 	function getBooks($genre) {
